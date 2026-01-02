@@ -7,6 +7,7 @@ function App() {
       let res = await fetch("https://api.restful-api.dev/objects");
       let resJson = await res.json();
       console.log(resJson);
+      console.log(resJson);
     } catch (error) {
       throw error;
     }
